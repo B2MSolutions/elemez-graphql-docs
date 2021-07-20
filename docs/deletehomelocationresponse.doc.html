@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>CreateUserData</title>
+    <title>DeleteHomeLocationResponse</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -245,7 +245,7 @@
                 DeleteDeviceResponse
             </a>
         </li>
-        <li  title="DeleteHomeLocationResponse">
+        <li class="slds-is-active" title="DeleteHomeLocationResponse">
             <a href="deletehomelocationresponse.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 DeleteHomeLocationResponse
             </a>
@@ -690,7 +690,7 @@
                 CreateHomeLocationData
             </a>
         </li>
-        <li class="slds-is-active" title="CreateUserData">
+        <li  title="CreateUserData">
             <a href="createuserdata.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 CreateUserData
             </a>
@@ -805,9 +805,9 @@
         </div>
     </div>
     <div class="container">
-        <p class="slds-text-title--caps slds-text-color--weak">INPUT_OBJECT</p>
-        <h1 class="slds-text-heading--large">CreateUserData</h1>
-        <div class="slds-text-body--regular"><p>Create user data</p>
+        <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
+        <h1 class="slds-text-heading--large">DeleteHomeLocationResponse</h1>
+        <div class="slds-text-body--regular"><p>Delete Home Location Response</p>
 </div>
     </div>
 </section>
@@ -819,7 +819,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">input</span> <span class="identifier">CreateUserData</span> {</li><li><span class="tab"><li><span class="tab"><span class="meta">email</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">groups</span>: [<a class="support type" href="string.doc.html">String</a>!]!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">homeLocationId</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">DeleteHomeLocationResponse</span> {</li><li></li><li><span class="tab"><span class="meta">success</span>: <a class="support type" href="boolean.doc.html">Boolean</a> </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
@@ -830,7 +830,7 @@
             </a>
             Require by
         </h2>
-        <div class="require-by anyone">This element is not required by anyone</div>
+        <ul class="require-by"><li><a href="mutations.doc.html" title="Mutations - ">Mutations<em>null</em></a><li></ul>
     </div>
 </section>
 <footer>
