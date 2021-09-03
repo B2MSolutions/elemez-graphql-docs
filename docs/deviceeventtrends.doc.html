@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>SetDeviceAssetTagResponse</title>
+    <title>DeviceEventTrends</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -335,7 +335,7 @@
                 DeviceEventTrend
             </a>
         </li>
-        <li  title="DeviceEventTrends">
+        <li class="slds-is-active" title="DeviceEventTrends">
             <a href="deviceeventtrends.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 DeviceEventTrends
             </a>
@@ -550,7 +550,7 @@
                 RebootInfo
             </a>
         </li>
-        <li class="slds-is-active" title="SetDeviceAssetTagResponse">
+        <li  title="SetDeviceAssetTagResponse">
             <a href="setdeviceassettagresponse.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 SetDeviceAssetTagResponse
             </a>
@@ -826,8 +826,8 @@
     </div>
     <div class="container">
         <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
-        <h1 class="slds-text-heading--large">SetDeviceAssetTagResponse</h1>
-        <div class="slds-text-body--regular"><p>Set device asset tag response</p>
+        <h1 class="slds-text-heading--large">DeviceEventTrends</h1>
+        <div class="slds-text-body--regular"><p>Device Event trends</p>
 </div>
     </div>
 </section>
@@ -839,7 +839,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">SetDeviceAssetTagResponse</span> {</li><li></li><li><span class="tab"><span class="meta">success</span>: <a class="support type" href="boolean.doc.html">Boolean</a> </span></li><li></li><li><span class="tab"><span class="meta">updated</span>: <a class="support type" href="boolean.doc.html">Boolean</a> </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">DeviceEventTrends</span> {</li><li></li><li><span class="tab"><span class="meta">keys</span>: [<a class="support type" href="flexgroupkey.doc.html">FlexGroupKey</a>] </span></li><li></li><li><span class="tab"><span class="meta">trend</span>: [<a class="support type" href="deviceeventtrend.doc.html">DeviceEventTrend</a>] </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
@@ -850,7 +850,7 @@
             </a>
             Require by
         </h2>
-        <ul class="require-by"><li><a href="mutations.doc.html" title="Mutations - ">Mutations<em>null</em></a><li></ul>
+        <ul class="require-by"><li><a href="deviceeventstrends.doc.html" title="DeviceEventsTrends - Devices Events Trends">DeviceEventsTrends<em>Devices Events Trends</em></a><li><li><a href="deviceeventstrendsedge.doc.html" title="DeviceEventsTrendsEdge - edge description">DeviceEventsTrendsEdge<em>edge description</em></a><li></ul>
     </div>
 </section>
 <footer>
